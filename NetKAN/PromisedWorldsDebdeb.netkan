@@ -1,0 +1,15 @@
+identifier: PromisedWorldsDebdeb
+$kref: '#/ckan/github/PromisedWorlds/PromisedWorlds/asset_match/Debdeb'
+---
+identifier: PromisedWorldsDebdeb
+$kref: '#/ckan/spacedock/3976'
+x_netkan_force_v: true
+tags:
+  - config
+  - planet-pack
+depends:
+  - name: ModuleManager
+  - name: PromisedWorldsCore
+install:
+  - find: PromisedWorlds
+    install_to: GameData
